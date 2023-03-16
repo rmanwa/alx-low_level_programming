@@ -1,6 +1,10 @@
 #include <stdio.h>
-int main()
+/*this is the start*/
+int main(void)
+	/*Main start point*/
 {
 	puts("Programming is like building a multilingual puzzle \n");
-		return 0;
+	/*main task*/
+	return (0);
+	/*closes the program*/
 }
