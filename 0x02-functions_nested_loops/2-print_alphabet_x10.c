@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * void print_alphabet_x10(void) - print the alphabet ten times
  *
  * return:void
  */
+
 void print_alphabet_x10(void)
 {
 char ch;
