@@ -1,13 +1,27 @@
 #include "main.h"
-void _puts(char *str)
-#include<stdio.h>
 /**
- * main - Entry point
+ * _strncpy - copy a string
+ * @dest: input value
+ * @src: input value
+ * @n: input value
  *
- * Return: Always 0 (Success)
+ * Return: dest
  */
-int main(void)
+char *_strncpy(char *dest, char *src, int n)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	int j;
+
+	j = 0;
+	while (j < n && src[j] != '\0')
+	{
+		dest[j] = src[j];
+		j++;
+	}
+	while (j < n)
+	{
+		dest[j] = '\0';
+		j++;
+	}
+
+	return (dest);
 }
