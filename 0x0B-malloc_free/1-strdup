@@ -1,0 +1,6 @@
+#include <stdio.h>
+include <stdio.h>
+incluse <stdio.lib>
+/**
+_strdup - duplicates to the new space allocated location
+
