@@ -21,7 +21,7 @@ new_node = malloc(sizeof(listint_t));
 if (new_node == NULL)
 return (NULL);
 
-/* Initialize the new node with the given integer value and update its next pointer */
+/* Initialize the new node with the value and update its next pointer */
 new_node->n = n;
 new_node->next = *head;
 

@@ -21,11 +21,11 @@ new_node = malloc(sizeof(listint_t));
 if (new_node == NULL)
 return (NULL);
 
-/* Initialize the new node with the given integer value and set its next pointer to NULL */
+/* Initialize the new node with the value and sets next pointer to NULL */
 new_node->n = n;
 new_node->next = NULL;
 
-/* If the linked list is empty, set the new node as the head and return its address */
+/* If linked list is empty,set  node as the head and return its address */
 if (*head == NULL)
 {
 *head = new_node;
